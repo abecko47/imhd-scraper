@@ -1,5 +1,5 @@
 
-function scraperProvider(scraper, api) {
+function scraperProvider(scraper) {
     const runScraper = async () => {
         await scraper.start()
     }

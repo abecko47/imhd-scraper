@@ -32,7 +32,6 @@ function imhdKe(webdriver) {
     return {
         createDriver,
         start,
-        driver,
         setApi,
         stopDriver
     }
